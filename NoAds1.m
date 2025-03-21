@@ -1,8 +1,4 @@
-#define UTF8Z(x) ({ \
-    const char *utf8String = x; \
-    NSString *hhh = [[NSString alloc] initWithUTF8String:utf8String]; \
-    hhh; \
-})
+
 
 %hook NSURL
 
